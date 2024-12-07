@@ -1,0 +1,43 @@
+Design an Adventure Game:
+In this game, the player will explore different places to find hidden treasures.
+The goal is to visit as many places as possible, collect treasures, and avoid going to the same place more than once.
+The game will keep track of the treasures the player has found and the places they've already visited.
+-----------------------------------------------------------------
+Write a Python program that:
+
+Uses conditions to determine whether a location has a treasure.
+Uses loops to allow the player to explore multiple locations.
+Uses lists to store the available locations and treasures.
+Uses a dictionary to map locations to either treasures or empty spots.
+Uses print() with sep and end to customize game messages.
+--------------------------------------------------------------------
+Game Rules:
+The player starts the game with a list of unexplored locations.
+Some locations contain treasures, while others do not.
+The player can choose a location to explore, and the program will check whether there's a treasure in that location.
+Once a location is explored, it is removed from the list of available locations.
+The game continues until all locations are explored or the player decides to stop playing.
+The game tracks the player's collected treasures and prints a summary at the end.
+'''
+
+# Example of What the game might look like:
+Welcome to the Simple Adventure Game!
+Explore the locations and find hidden treasures!
+
+Available locations: forest, beach, mountain, river, cave
+
+Which location would you like to explore? beach
+Congratulations! You found a diamond in the beach!
+
+Do you want to keep exploring? (yes/no): yes
+
+Available locations: forest, mountain, river, cave
+
+Which location would you like to explore? river
+There's nothing in the river.
+
+Do you want to keep exploring? (yes/no): no
+
+Game Over!
+You collected the following treasures: diamond
+
