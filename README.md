@@ -1,1 +1,2 @@
-# python_lec---projectA
+# Adventure Game
+Project A - Month 1
