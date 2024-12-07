@@ -1,0 +1,27 @@
+# Walmart Payment System 🛒
+Imagine you’re creating a simple program to help a supermarket keep track of prices and calculate the total cost of items customers buy.
+
+Here’s what you need to do:
+
+Create a dictionary where the key is the name of an item (e.g., 'Apple', 'Banana', 'Milk') and the value is the price of that item.
+Ask the customer how many different items they want to buy and which items they want from the dictionary.
+For each item, ask how many they want, and then calculate the total price for that item.
+At the end, show the total amount the customer needs to pay for everything.
+You must use:
+
+A dictionary to store item names and prices.
+A function that calculates the total cost.
+Loops to keep asking the customer about items.
+math functions, like round(), to make sure the total cost is shown neatly.
+
+---------------------------------------
+This is how your console answer should look like:
+
+If the customer buys 2 apples and 3 bananas, your program should calculate the total cost and print something like this:
+
+
+You have bought:
+2 Apples - $3.00
+3 Bananas - $1.50
+
+Total amount to pay: $4.50
